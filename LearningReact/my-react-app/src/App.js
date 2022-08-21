@@ -35,7 +35,13 @@ function App() {
           color='secondary' 
           label='Add a task' 
           sx={{width: 350}} />
-        <Button variant='contained' color='secondary' sx={{width: 150, height: 56}}>Add Todo</Button> 
+        <Button variant='contained' color='secondary' sx={{width: 150, height: 56}}>Add Todo</Button>
+        <TextField 
+          variant='outlined' 
+          color='secondary' 
+          label='Add a task' 
+          sx={{width: 350}} />
+        <Button variant='contained' color='secondary' sx={{width: 150, height: 56}}>Add Todo</Button>
         <Card>
           <CardContent>
             <Typography variant='body'>Lorem ipsum sit dolor amet</Typography>
