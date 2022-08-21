@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {Card, CardMedia, TextField, Typography} from '@mui/material';
+import { TextField} from '@mui/material';
 import {Box} from '@mui/material';
 import { Button } from '@mui/material';
 
@@ -13,19 +13,6 @@ function App() {
           label='Add a task' 
           sx={{width: 350}} />
         <Button variant='contained' color='secondary' sx={{width: 150, height: 56}}>Add Todo</Button> 
-        <Card>hello</Card>
-        <Typography variant='h1'>Elmira</Typography>
-        <Card>
-          <CardMedia
-            component="img"
-            image='LearningReact/my-react-app/src/Okro-Soup.jpeg'
-            alt='food'
-          />
-        </Card>
-        <Typography variant='h1'>marah</Typography>
-        <Typography variant='h2'>junior</Typography>
-        <Typography variant='h2'>prince</Typography>
-
      </Box>
   )
 }
