@@ -22,6 +22,7 @@ function App() {
             alt='food'
           />
         </Card>
+        <Typography variant='h1'>marah</Typography>
      </Box>
   )
 }
