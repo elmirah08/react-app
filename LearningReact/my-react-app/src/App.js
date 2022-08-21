@@ -24,6 +24,8 @@ function App() {
         </Card>
         <Typography variant='h1'>marah</Typography>
         <Typography variant='h2'>junior</Typography>
+        <Typography variant='h2'>prince</Typography>
+
      </Box>
   )
 }
