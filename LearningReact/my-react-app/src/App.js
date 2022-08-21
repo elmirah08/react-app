@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { TextField} from '@mui/material';
+import { Card, CardContent, TextField, Typography} from '@mui/material';
 import {Box} from '@mui/material';
 import { Button } from '@mui/material';
 import AppBar from '@mui/material/AppBar';
@@ -37,6 +37,17 @@ function App() {
           label='Add a task' 
           sx={{width: 350}} />
         <Button variant='contained' color='secondary' sx={{width: 150, height: 56}}>Add Todo</Button> 
+        <Card>
+          <CardContent>
+            <Typography variant='body'>Lorem ipsum sit dolor amet</Typography>
+          </CardContent>
+        </Card>
+        <Card>
+          <CardContent>
+            <Typography variant='body'>Lorem ipsum sit dolor amet</Typography>
+          </CardContent>
+        </Card>
+
      </Box>
   )
 }
