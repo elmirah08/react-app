@@ -46,7 +46,16 @@ function App() {
             <Typography variant='body'>Lorem ipsum sit dolor amet</Typography>
           </CardContent>
         </Card>
-
+        <Card>
+          <CardContent>
+            <Typography variant='h4'>Lorem ipsum sit dolor amet</Typography>
+          </CardContent>
+        </Card>
+        <Card>
+          <CardContent>
+            <Typography variant='h1'>Lorem ipsum sit dolor amet</Typography>
+          </CardContent>
+        </Card>
      </Box>
   )
 }
